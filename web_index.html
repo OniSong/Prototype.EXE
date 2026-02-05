@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gothic Bedroom — VRM Viewer</title>
+  <link rel="stylesheet" href="/web/styles.css" />
+</head>
+<body>
+  <div id="ui">
+    <label>
+      Upload VRM:
+      <input id="file-input" type="file" accept=".vrm,.glb,.gltf" />
+    </label>
+    <input id="ai-text" placeholder="Send text to AI..." style="width:180px" />
+    <button id="send-ai">Send</button>
+    <div id="status"></div>
+  </div>
+  <div id="canvas-container"></div>
+
+  <script type="module" src="/web/main.js"></script>
+</body>
+</html>
